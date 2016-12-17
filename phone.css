@@ -1,0 +1,231 @@
+@media screen and (max-width:480px) { 
+        .fixed-width {
+            width: 100%;
+/*            margin: auto;*/
+        }        
+        .col-4 {
+            width: 100%;
+/*            margin: 10px;*/
+/*            float: left;*/
+            padding: 20px;
+        }
+        .col-2 {
+            width: 100%;
+/*            float: left;*/
+        }
+        nav .logo {
+/*            float: left;*/
+            width: 100px;
+            height: 50px;
+            background-color: #bbb;
+        }
+        nav .menu {
+/*            float: right;*/
+        }
+        nav .menu ul {
+            margin: 0;
+            padding: 0;
+        }
+        nav .menu li {
+/*            float: left;*/
+            list-style: none;
+            border-bottom:1px solid #bbb;
+        }
+        nav .menu a {
+            display: block;
+            line-height: 70px;
+/*            margin-left: 30px;*/
+            background-color: #505050;
+            text-decoration: none;
+            color: beige;
+            font-size: 14px;
+        }
+        header {
+            background-image: url(images/bbg.jpeg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            padding-top: 150px;
+            padding-bottom: 150px;
+            text-align: center;
+            color: beige;
+/*            height: 600px;*/
+        }
+        header .content h1 {
+            font-size: 48px;
+            letter-spacing: 4px;
+        }
+        header .content p {
+/*            letter-spacing: 2em;*/
+        }
+        #about {
+            padding-top: 50px;
+            padding-bottom: 50px;
+        } 
+        #about .title h2 {
+            text-align: center;
+            padding-top: 50px;
+            padding-bottom: 100px;
+            font-size: 32px;
+            letter-spacing: 5px;
+            position: relative;
+        }
+        #about .title h2::before {
+            content: "A";
+            position: absolute;
+            display: block;
+            width: 100%;
+            font-size: 160px;
+            top: -27px;
+            color: rgba(255,255,255,.15);
+        }
+        #about .col-4 {
+            text-align: center;
+        }
+        #about .col-4 h3 {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        #about .col-4 p {
+            font-size: 14px;
+        }
+        #about .icon {
+            width: 150px;
+            height: 150px;
+            background-color: rgba(255,255,255,.1);
+            display: inline-block;
+            line-height: 165px;
+            border-radius: 50%;
+            border: rgba(255,255,255,.13) 2px solid;
+        }
+        #fashion .col-2 {
+            height: 400px;
+        }
+        #fashion .wrapper:nth-of-type(1) .col-2:nth-of-type(1) {
+            background-color: #3c4646;
+            color: beige;
+            
+            display: inline-block;
+            vertical-align: middle;
+            font-size: 0;
+        }
+        #fashion .wrapper .col-2::before {
+            content: "";
+            height: 100%;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        #fashion .wrapper:nth-of-type(1) .col-2:nth-of-type(1) .content {
+            display: inline-block;
+            vertical-align: middle;
+            font-size: 16px;
+            text-align: left;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+        #fashion .wrapper .content h3 {
+            border-left: 5px solid #226576;
+            padding-left: 20px;
+            margin-bottom: 20px;
+            font-size: 26px;
+        }
+        #fashion .wrapper .content p {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        #fashion .wrapper .content a {
+            display: inline-block;
+            text-decoration: none;
+            padding: 10px;
+        }
+        #fashion .wrapper:nth-of-type(1) .col-2:nth-of-type(1) .content a {
+            color: beige;
+            border: 1px solid beige;
+            background-color: #505050;
+            width: 100%;
+        }
+         #fashion .wrapper:nth-of-type(2) .col-2:nth-of-type(2) .content a {
+            color:  #505050;
+            border: 1px solid #505050;
+            background-color: beige;
+            width: 100%;
+        }
+        #fashion .wrapper:nth-of-type(1) .col-2:nth-of-type(2) {
+            background-image: url(images/b05.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        #fashion .wrapper:nth-of-type(2) .col-2:nth-of-type(1) {
+            background-image: url(images/b06.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        #fashion .wrapper:nth-of-type(2) .col-2:nth-of-type(2) {
+            background-color: #d3d7d9;
+            color: #505050;
+            
+            display: inline-block;
+            vertical-align: middle;
+            font-size: 0;
+        }
+/*
+        #fashion .wrapper:nth-of-type(2) .col-2:nth-of-type(2)::before {
+            content: "";
+            height: 100%;
+            display: inline-block;
+            vertical-align: middle;
+        }
+*/
+        #fashion .wrapper:nth-of-type(2) .col-2:nth-of-type(2) .content {
+            display: inline-block;
+            vertical-align: middle;
+            font-size: 16px;
+            text-align: right;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+        #works {
+            background-color: beige;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+        #works .title h2 {
+            text-align: center;
+            padding-top: 50px;
+            padding-bottom: 100px;
+            font-size: 32px;
+            letter-spacing: 5px;
+            position: relative;
+        }
+        #works .title h2::before {
+            content: "W";
+            position: absolute;
+            display: block;
+            width: 100%;
+            font-size: 160px;
+            top: -27px;
+            color: rgba(0,0,0,.15);
+        }
+        #works .fixed-width:nth-of-type(1) p {
+            margin-bottom: 50px;
+        }
+        #works .fixed-width p {
+            text-align: center;
+        }
+        #works h3 {
+            margin-top: 30px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        footer {
+            background-color: black;
+            color: beige;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            text-align:center;
+            letter-spacing: 1.5px;
+            font-size: 14px;
+        }
+}
